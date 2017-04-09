@@ -7,6 +7,7 @@
 @import url("owlcarousel.css");
 @import url("uikit.scrollspy.css");
 @import url("steps.css");
+@import url("sponsors.css");
 
 
 /* ==================================================
@@ -531,6 +532,37 @@ h1, h2, h3
 				{
 					top: 2px;
 				}
+
+/*steps*/
+#boxescont{
+padding: 50px;
+}
+#boxescont h3{
+	color: #16A085;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+#boxescont p{
+	font-size: 0.8em;
+}
+#boxescont span{
+	    color: #16A085;
+	    font-size: 2em;
+}
+
+#spec-promo{
+	color: #fff;
+
+}
+#spec-promo h4{
+	font-size: 1.5em;
+	font-weight: 300;
+    line-height: 42px;
+}
+#spec-promo p{
+	font-size: 0.8em;
+	padding: 10px;
+}
 
 /* ==================================================
    Responsive Media Queries - Tablets

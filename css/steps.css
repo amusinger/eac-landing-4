@@ -20,7 +20,7 @@
 
 .btn {
   position: relative;
-  padding: 10px 20px 25px;
+  padding: 25px 20px 25px;
   width: 30%;
   background: #111;
   font-family: lato;
@@ -28,10 +28,11 @@
   @include box-sizing;
 }
 
+
 /* Button Backgrounds */
 
 .btn:nth-child(1) {
-  background: #16b999;
+  background: #08f1c3;
 }
 
 .btn:nth-child(2) {
@@ -39,36 +40,12 @@
 }
 
 .btn:nth-child(3) {
-  background: #08f1c3;
+  background: #16b999;
 }
 
 .btn:nth-child(4) {
   background: #08f1c3;
 }
-/* Arrows */
-/*
-.btn:nth-child(1):after,
-.btn:nth-child(2):after,
-.btn:nth-child(3):after {
-  position: absolute;
-  top: 45%;
-  right: -18px;
-  z-index: 1;
-  content: "";
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid #117ec3;
-  @include transition;
-}
-
-.btn:nth-child(2):after {
-  border-left: 20px solid #1491e1;
-}
-
-.btn:nth-child(3):after {
-  border-left: 20px solid #2ba1eb;
-}*/
-/* Icon */
 
 .btn .icon {
   display: block;
@@ -102,6 +79,29 @@
   font-size: 1em;
   line-height: 1.5em;
   font-weight: 300;
+}
+
+.table-single p {
+    
+}
+.table-single ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #454549;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.table-single ul li h3{
+  font-size: 1,5em;
+}
+.buy-button div {
+  line-height: 2em;
+  background-color: #35a790;
+  padding: 20px;
+  color: #fff;
+
 }
 
 /* Hover Effects */
