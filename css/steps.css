@@ -82,16 +82,16 @@
 }
 
 .table-single p {
-    
+  
 }
 .table-single ul li {
-    text-decoration: none;
-    list-style: none;
-    padding: 10px 0;
-    border-bottom: 1px solid #454549;
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 10px;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #454549;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 .table-single ul li h3{
   font-size: 1,5em;

@@ -1,7 +1,7 @@
 
 /* working */
 *, *:after, *:before {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 * {margin:0;padding:0;border: 0 none; position: relative;}
 :root {
@@ -25,29 +25,29 @@
 }
 
 section {
-  margin: calc(var(--size) * .5)
-					auto
-					0;
-  width: calc(var(--size) * calc(var(--Nhexa) - 1));
+	margin: calc(var(--size) * .5)
+	auto
+	0;
+	width: calc(var(--size) * calc(var(--Nhexa) - 1));
 	display: grid;
 	grid-template-columns: repeat(var(--Nhexa), 1fr);
 	grid-gap: var(--gap);
 }
 article {
 	background: cadetblue;
-  width: var(--size); 
-  height: calc(var(--size) / 1.1111111);
+	width: var(--size); 
+	height: calc(var(--size) / 1.1111111);
 	clip-path: url(#hexagono);
-  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-  margin-right: calc(var(--size) / 2);
+	clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+	margin-right: calc(var(--size) / 2);
 	color: #fff;
 	overflow: hidden;
 }
 article:nth-child(2n) {
-  margin: calc(var(--size) * -.5)
-					calc(var(--size) * -.25)
-		      0
-					calc(var(--size) * -.75);
+	margin: calc(var(--size) * -.5)
+	calc(var(--size) * -.25)
+	0
+	calc(var(--size) * -.75);
 }
 
 article::before {
@@ -69,7 +69,7 @@ article::after {
 }
 */
 img {
-  width: var(--size);
+	width: var(--size);
 	height: var(--size);
 	position: absolute;
 	top: 50%;
@@ -97,10 +97,10 @@ figure {
 	color: #fff;
 	transition: .75s .05s;
 	hyphens: auto;
-  text-align: center;
+	text-align: center;
 }
 h2 {font-size: 100%;}
- figure p {
+figure p {
 	font-size: 70%;
 	line-height: 1.2;
 	font-weight: 100;
